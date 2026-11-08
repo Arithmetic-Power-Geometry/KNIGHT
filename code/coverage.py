@@ -1,4 +1,4 @@
-""" portable coverage rerun. Run from this directory: python p378_reproduce.py"""
+"""Deterministic certificate coverage comparison and rerun timings."""
 import json,time,statistics,platform
 from pathlib import Path
 import benchmark as b

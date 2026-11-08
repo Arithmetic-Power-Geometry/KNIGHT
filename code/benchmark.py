@@ -1,4 +1,4 @@
-""" normalized CNF certificate benchmark; Python standard library only."""
+"""Normalized CNF certificate benchmark; Python standard library only."""
 import random,time,tracemalloc,statistics,json,platform,argparse
 from pathlib import Path
 
@@ -69,7 +69,7 @@ def run():
   assert not(o and not ref) and not(q and not ref),(typ,k,o,q,ref)
   false_cert+=int((o or q) and not ref);missed+=int(o!=q)
   measurements={name:measure(fn,f,a,b) for name,fn in [('incremental',incremental),('batch',batch),('exact',lookahead)]}
-  rows.append({'family':typ,'parameter':k,'clauses':len(f),'exact_order':ref,'p25_certificate':o,'batch_certificate':q,'measurements':measurements})
+  rows.append({'family':typ,'parameter':k,'clauses':len(f),'exact_order':ref,'incremental_certificate':o,'batch_certificate':q,'measurements':measurements})
  return {'status':'PASS','python':platform.python_version(),'platform':platform.platform(),'repetitions':7,'cases':len(rows),'false_certificates':false_cert,'certificate_disagreements':missed,'rows':rows}
 if __name__=='__main__':
  parser=argparse.ArgumentParser();parser.add_argument('--output',default='benchmark_results.json');args=parser.parse_args()

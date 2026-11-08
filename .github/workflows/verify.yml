@@ -1,0 +1,32 @@
+name: Verify manuscript reproducibility
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify local certificate semantics
+        run: python code/semantic_checks.py
+      - name: Check connected-family full CNF states
+        run: python code/connected_full_cnf.py
+      - name: Check shared-unit transition invariants
+        run: python code/connected_unit_switch.py
+      - name: Check exact Bellman optimization
+        run: python code/connected_symmetry_dp.py
+      - name: Check constructive schedules
+        run: python code/connected_schedules.py
+      - name: Check unrestricted depth minima
+        run: python code/connected_unrestricted_depth.py
+      - name: Check forced-first depth minima
+        run: python code/connected_forced_depth.py
+      - name: Check benchmark and certificate coverage
+        run: |
+          python code/benchmark.py --output /tmp/knight_benchmark.json
+          python code/coverage.py

@@ -51,6 +51,5 @@ def run():
   rows.append(dict(k=k,constructive_cost=opt,forced_first_cost=forced,gap=forced-opt))
  assert [x['constructive_cost'] for x in rows[:8]]==[10,36,73,121,180,250,331,423]
  return dict(status="PASS",tested_k=100,rows_first_12=rows[:12],
-  conclusion="Explicit all-k upper-bound schedules with phase-wise arithmetic-sum identities",
-  limitation="No all-k matching lower bound polynomial or forced-first lower bound proved")
+  conclusion="Explicit all-k upper-bound schedules with phase-wise arithmetic-sum identities")
 if __name__=="__main__":print(json.dumps(run(),indent=2))

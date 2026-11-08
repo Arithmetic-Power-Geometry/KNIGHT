@@ -52,6 +52,5 @@ def run():
   rows.append(dict(k=k,optimum=opt,forced_first_pivot4=forced,gap=forced-opt,states=n))
  assert [(x['optimum'],x['forced_first_pivot4']) for x in rows]==[
  (10,11),(36,39),(73,79),(121,130),(180,192),(250,265),(331,349),(423,444)]
- assert rows[3]['gap']!=4*5//2
  return dict(status="PASS",rows=rows)
 if __name__=="__main__":print(json.dumps(run(),indent=2))

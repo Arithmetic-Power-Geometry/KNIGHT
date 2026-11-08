@@ -19,5 +19,5 @@
   ],
   "combinations_total": 4368,
   "scope": "Independent full-CNF normalization vs connected reduced state count; all masks for k<=3",
-  "limitation": "Does not prove all-k optimal-cost closed forms or journal novelty"
+  "limitation": "Finite exact full-CNF comparison for k=1,2,3"
 }

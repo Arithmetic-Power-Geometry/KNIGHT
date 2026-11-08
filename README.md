@@ -9,7 +9,7 @@ The experiments concern **normalized Davis–Putnam elimination**: tautological,
 - `code/benchmark.py`: local certificate implementations, exact one-step oracle, synthetic CNF generators, and measured benchmark cohort.
 - `code/coverage.py`: the reproducible 1,000-instance directed comparison, including exact and one-sided baselines.
 - `code/semantic_checks.py`: checks of projected-function preservation and certificate soundness on finite cases.
-- `code/connected_*.py`, `code/disjoint_*.py`: independent full-CNF checks, exact state-space solvers, and constructive/depth-minimum certificates.
+- `code/connected_*.py`: independent full-CNF checks, exact state-space solvers, and constructive/depth-minimum certificates.
 - `data/`: numerical results supporting the manuscript's tables and figures.
 - `figures/plot_results.py`: regenerates the workflow, timing, and certificate-coverage graphics from the published tabular values.
 - `docs/reproducibility.md`: commands, verification scope, and environment information.
@@ -25,7 +25,6 @@ python code/connected_symmetry_dp.py
 python code/connected_schedules.py
 python code/connected_unrestricted_depth.py
 python code/connected_forced_depth.py
-python code/disjoint_pairwise.py
 python code/benchmark.py --output /tmp/knight_benchmark_rerun.json
 python code/coverage.py --output /tmp/knight_coverage_rerun.json
 ```

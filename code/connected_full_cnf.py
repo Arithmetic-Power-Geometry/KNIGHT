@@ -1,6 +1,6 @@
 """independent full-CNF crosscheck of connected-state clause-count rule.
 Enumerates ALL 16^k eliminated-mask combinations for k=1,2,3.
-No imports from the R21 or R22 code.
+No imports from the  or  code.
 """
 from itertools import product
 import json
@@ -45,5 +45,5 @@ def run():
   rows.append(dict(k=k,all_mask_combinations=checked,status="PASS"))
  return dict(status="PASS",rows=rows,combinations_total=sum(r['all_mask_combinations'] for r in rows),
   scope="Independent full-CNF normalization vs connected reduced state count; all masks for k<=3",
-  limitation="Does not prove all-k optimal-cost closed forms or journal novelty")
+  limitation="Finite full-CNF comparison for copy counts one through three")
 if __name__=="__main__":print(json.dumps(run(),indent=2))

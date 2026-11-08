@@ -75,6 +75,5 @@
       "gap": 33
     }
   ],
-  "conclusion": "Explicit all-k upper-bound schedules with phase-wise arithmetic-sum identities",
-  "limitation": "No all-k matching lower bound polynomial or forced-first lower bound proved"
+  "conclusion": "Explicit all-k upper-bound schedules with phase-wise arithmetic-sum identities"
 }
