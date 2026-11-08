@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "tested_k": 100,
+  "rows_first_12": [
+    {
+      "k": 1,
+      "constructive_cost": 10,
+      "forced_first_cost": 11,
+      "gap": 1
+    },
+    {
+      "k": 2,
+      "constructive_cost": 36,
+      "forced_first_cost": 39,
+      "gap": 3
+    },
+    {
+      "k": 3,
+      "constructive_cost": 73,
+      "forced_first_cost": 79,
+      "gap": 6
+    },
+    {
+      "k": 4,
+      "constructive_cost": 121,
+      "forced_first_cost": 130,
+      "gap": 9
+    },
+    {
+      "k": 5,
+      "constructive_cost": 180,
+      "forced_first_cost": 192,
+      "gap": 12
+    },
+    {
+      "k": 6,
+      "constructive_cost": 250,
+      "forced_first_cost": 265,
+      "gap": 15
+    },
+    {
+      "k": 7,
+      "constructive_cost": 331,
+      "forced_first_cost": 349,
+      "gap": 18
+    },
+    {
+      "k": 8,
+      "constructive_cost": 423,
+      "forced_first_cost": 444,
+      "gap": 21
+    },
+    {
+      "k": 9,
+      "constructive_cost": 526,
+      "forced_first_cost": 550,
+      "gap": 24
+    },
+    {
+      "k": 10,
+      "constructive_cost": 640,
+      "forced_first_cost": 667,
+      "gap": 27
+    },
+    {
+      "k": 11,
+      "constructive_cost": 765,
+      "forced_first_cost": 795,
+      "gap": 30
+    },
+    {
+      "k": 12,
+      "constructive_cost": 901,
+      "forced_first_cost": 934,
+      "gap": 33
+    }
+  ],
+  "conclusion": "Explicit all-k upper-bound schedules with phase-wise arithmetic-sum identities",
+  "limitation": "No all-k matching lower bound polynomial or forced-first lower bound proved"
+}

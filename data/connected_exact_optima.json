@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "k": 1,
+      "optimum": 10,
+      "forced_first_pivot4": 11,
+      "gap": 1,
+      "states": 16
+    },
+    {
+      "k": 2,
+      "optimum": 36,
+      "forced_first_pivot4": 39,
+      "gap": 3,
+      "states": 136
+    },
+    {
+      "k": 3,
+      "optimum": 73,
+      "forced_first_pivot4": 79,
+      "gap": 6,
+      "states": 816
+    },
+    {
+      "k": 4,
+      "optimum": 121,
+      "forced_first_pivot4": 130,
+      "gap": 9,
+      "states": 3876
+    },
+    {
+      "k": 5,
+      "optimum": 180,
+      "forced_first_pivot4": 192,
+      "gap": 12,
+      "states": 15504
+    },
+    {
+      "k": 6,
+      "optimum": 250,
+      "forced_first_pivot4": 265,
+      "gap": 15,
+      "states": 54264
+    },
+    {
+      "k": 7,
+      "optimum": 331,
+      "forced_first_pivot4": 349,
+      "gap": 18,
+      "states": 170544
+    },
+    {
+      "k": 8,
+      "optimum": 423,
+      "forced_first_pivot4": 444,
+      "gap": 21,
+      "states": 490314
+    }
+  ]
+}

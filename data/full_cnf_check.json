@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "k": 1,
+      "all_mask_combinations": 16,
+      "status": "PASS"
+    },
+    {
+      "k": 2,
+      "all_mask_combinations": 256,
+      "status": "PASS"
+    },
+    {
+      "k": 3,
+      "all_mask_combinations": 4096,
+      "status": "PASS"
+    }
+  ],
+  "combinations_total": 4368,
+  "scope": "Independent full-CNF normalization vs connected reduced state count; all masks for k<=3",
+  "limitation": "Does not prove all-k optimal-cost closed forms or journal novelty"
+}

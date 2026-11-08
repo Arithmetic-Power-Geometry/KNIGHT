@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "unit_masks": [
+    7,
+    15
+  ],
+  "rows": [
+    {
+      "k": 1,
+      "states": 16,
+      "legal_edges": 32,
+      "first_switch_edges": 6
+    },
+    {
+      "k": 2,
+      "states": 256,
+      "legal_edges": 1024,
+      "first_switch_edges": 168
+    },
+    {
+      "k": 3,
+      "states": 4096,
+      "legal_edges": 24576,
+      "first_switch_edges": 3528
+    }
+  ],
+  "theorem": "Once shared visible unit appears it persists; first appearance enters mask 7 or 15 (third or fourth elimination within that copy).",
+  "limitation": "No all-k optimal cost formula established"
+}

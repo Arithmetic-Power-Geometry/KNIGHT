@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "k_range": "1..100",
+  "depth_values_verified": 20200,
+  "first_12": [
+    {
+      "k": 1,
+      "depth_sum": 11,
+      "corrected_optimum": 11
+    },
+    {
+      "k": 2,
+      "depth_sum": 38,
+      "corrected_optimum": 39
+    },
+    {
+      "k": 3,
+      "depth_sum": 78,
+      "corrected_optimum": 79
+    },
+    {
+      "k": 4,
+      "depth_sum": 129,
+      "corrected_optimum": 130
+    },
+    {
+      "k": 5,
+      "depth_sum": 191,
+      "corrected_optimum": 192
+    },
+    {
+      "k": 6,
+      "depth_sum": 264,
+      "corrected_optimum": 265
+    },
+    {
+      "k": 7,
+      "depth_sum": 348,
+      "corrected_optimum": 349
+    },
+    {
+      "k": 8,
+      "depth_sum": 443,
+      "corrected_optimum": 444
+    },
+    {
+      "k": 9,
+      "depth_sum": 549,
+      "corrected_optimum": 550
+    },
+    {
+      "k": 10,
+      "depth_sum": 666,
+      "corrected_optimum": 667
+    },
+    {
+      "k": 11,
+      "depth_sum": 794,
+      "corrected_optimum": 795
+    },
+    {
+      "k": 12,
+      "depth_sum": 933,
+      "corrected_optimum": 934
+    }
+  ],
+  "k_100": {
+    "k": 100,
+    "depth_sum": 56241,
+    "corrected_optimum": 56242
+  },
+  "mathematical_scope": "The appendix gives the symbolic proof; the script checks its finite instances."
+}

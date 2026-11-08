@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "tested_k": 100,
+  "all_k_proof": "Finite local inequalities and explicit attaining-state witnesses in the manuscript",
+  "first_12": [
+    {
+      "k": 1,
+      "relaxation": 9,
+      "certified_optimum": 10
+    },
+    {
+      "k": 2,
+      "relaxation": 35,
+      "certified_optimum": 36
+    },
+    {
+      "k": 3,
+      "relaxation": 72,
+      "certified_optimum": 73
+    },
+    {
+      "k": 4,
+      "relaxation": 120,
+      "certified_optimum": 121
+    },
+    {
+      "k": 5,
+      "relaxation": 179,
+      "certified_optimum": 180
+    },
+    {
+      "k": 6,
+      "relaxation": 249,
+      "certified_optimum": 250
+    },
+    {
+      "k": 7,
+      "relaxation": 330,
+      "certified_optimum": 331
+    },
+    {
+      "k": 8,
+      "relaxation": 422,
+      "certified_optimum": 423
+    },
+    {
+      "k": 9,
+      "relaxation": 525,
+      "certified_optimum": 526
+    },
+    {
+      "k": 10,
+      "relaxation": 639,
+      "certified_optimum": 640
+    },
+    {
+      "k": 11,
+      "relaxation": 764,
+      "certified_optimum": 765
+    },
+    {
+      "k": 12,
+      "relaxation": 900,
+      "certified_optimum": 901
+    }
+  ],
+  "k_100": {
+    "k": 100,
+    "relaxation": 55944,
+    "certified_optimum": 55945
+  }
+}

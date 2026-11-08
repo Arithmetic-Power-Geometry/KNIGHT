@@ -1,0 +1,114 @@
+{
+  "description": "Values reported in manuscript Tables 2–5 and Figures 3–4. Timings are recorded medians from the original Python 3.13.5 Linux experiment; reruns are not expected to reproduce identical times.",
+  "connected_family": [
+    {
+      "k": 1,
+      "optimum": 10,
+      "forced": 11
+    },
+    {
+      "k": 2,
+      "optimum": 36,
+      "forced": 39
+    },
+    {
+      "k": 3,
+      "optimum": 73,
+      "forced": 79
+    },
+    {
+      "k": 4,
+      "optimum": 121,
+      "forced": 130
+    },
+    {
+      "k": 5,
+      "optimum": 180,
+      "forced": 192
+    },
+    {
+      "k": 6,
+      "optimum": 250,
+      "forced": 265
+    },
+    {
+      "k": 7,
+      "optimum": 331,
+      "forced": 349
+    },
+    {
+      "k": 8,
+      "optimum": 423,
+      "forced": 444
+    }
+  ],
+  "timing": [
+    {
+      "m": 10,
+      "incremental_ms": 0.04047,
+      "indexed_ms": 0.02287,
+      "exact_ms": 0.06961,
+      "incremental_peak_kib": 6.18,
+      "indexed_peak_kib": 9.68,
+      "exact_peak_kib": 27.84
+    },
+    {
+      "m": 40,
+      "incremental_ms": 0.58667,
+      "indexed_ms": 0.12955,
+      "exact_ms": 0.93171,
+      "incremental_peak_kib": 19.77,
+      "indexed_peak_kib": 33.28,
+      "exact_peak_kib": 381.59
+    },
+    {
+      "m": 80,
+      "incremental_ms": 2.74419,
+      "indexed_ms": 0.35519,
+      "exact_ms": 3.4019,
+      "incremental_peak_kib": 38.09,
+      "indexed_peak_kib": 69.84,
+      "exact_peak_kib": 1487.09
+    },
+    {
+      "m": 160,
+      "incremental_ms": 9.15049,
+      "indexed_ms": 0.87508,
+      "exact_ms": 13.15796,
+      "incremental_peak_kib": 74.52,
+      "indexed_peak_kib": 134.52,
+      "exact_peak_kib": 5884.18
+    }
+  ],
+  "timing_cohort": [
+    {
+      "family": "all-tautological",
+      "cases": 4,
+      "favorable": 4,
+      "incremental": 4,
+      "indexed": 4
+    },
+    {
+      "family": "ordering-separation",
+      "cases": 3,
+      "favorable": 3,
+      "incremental": 3,
+      "indexed": 3
+    },
+    {
+      "family": "random",
+      "cases": 20,
+      "favorable": 13,
+      "incremental": 0,
+      "indexed": 0
+    }
+  ],
+  "coverage": {
+    "instances": 1000,
+    "favorable": 406,
+    "incremental": 10,
+    "indexed": 10,
+    "one_sided": 12,
+    "exact": 406
+  }
+}

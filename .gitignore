@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+figures/generated/
+benchmark_results.json
+coverage_results.json
